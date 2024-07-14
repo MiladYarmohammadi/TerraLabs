@@ -29,7 +29,7 @@ variable "tenant_id" {
 variable "prefix" {
     description =   "Prefix to append to all resource names"
     type        =   string
-    default     =   "Collabnix"
+    default     =   "TerraLabs"
 }
 
 variable "tags" {

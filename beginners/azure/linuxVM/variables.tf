@@ -29,14 +29,14 @@ variable "tenant_id" {
 variable "prefix" {
     description =   "Prefix to append to all resource names"
     type        =   string
-    default     =   "collabnix"
+    default     =   "terralabs"
 }
 
 variable "tags" {
     description =   "Resouce tags"
     type        =   map(string)
     default     =   {
-        "project"       =   "Collabnix"
+        "project"       =   "TerraLabs"
         "deployed_with" =   "Terraform"
     }
 }

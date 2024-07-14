@@ -49,14 +49,14 @@ distinct-output = [
   "k8s",
 ]
 element-output = {
-  "0" = "collabnix"
+  "0" = "terralabs"
   "1" = "aws"
   "2" = "azure"
   "3" = "gcp"
   "4" = "k8s"
 }
 file-output = # Output of file function
-Collabnix Rocks !!!
+TerraLabs Rocks !!!
 fileexists-output = {
   "Doesnt_Exist" = false
   "Exists" = true
@@ -67,7 +67,7 @@ floor-output = {
   "op3" = 13
   "op4" = 13
 }
-join-output = collabnix-terraform-aws-azure-gpc
+join-output = terralabs-terraform-aws-azure-gpc
 length-output = {
   "length-list" = 5
   "length-map" = 3
@@ -82,7 +82,7 @@ lookup-output = {
   "Key_Doesnt_Exist" = "GettingBetter"
   "Key_Exists" = "Better"
 }
-lower-output = collabnix
+lower-output = terralabs
 max-output = 1325
 min-output = 13
 pathexpand-output = /Users/Vamsi/file1.txt
@@ -139,7 +139,7 @@ sort-outputs = {
   "sort-list1" = [
     "aws",
     "azure",
-    "collabnix",
+    "terralabs",
     "gpc",
     "terraform",
   ]
@@ -159,7 +159,7 @@ sort-outputs = {
   ]
 }
 split-output = [
-  "collabnix",
+  "terralabs",
   "terraform",
   "aws",
   "azure",
@@ -168,7 +168,7 @@ split-output = [
 substr-output = oll
 templatefile-output = Ip Address with port
 10.0.10.0:443
-upper-output = COLLABNIX
+upper-output = TERRALABS
 zipmap-output = {
   "Aws" = 1
   "Azure" = 2

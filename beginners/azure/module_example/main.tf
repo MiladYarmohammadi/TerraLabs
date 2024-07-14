@@ -22,9 +22,9 @@ provider "azurerm" {
 
 module "vnet" {
     source                 =    "./child_module"
-    resource_group_name    =    "Collabnix-RG"
+    resource_group_name    =    "TerraLabs-RG"
     location               =    "East US"
-    virtual_network_name   =    "Collabnix-Vnet"
+    virtual_network_name   =    "TerraLabs-Vnet"
     vnet_address_range     =    "10.0.0.0/16"
     subnet_name            =    "Webserver-Subnet"
     subnet_address_range   =    "10.0.1.0/24"

@@ -3,7 +3,7 @@ resource "aws_nat_gateway" "ngw" {
   subnet_id     = aws_subnet.privatesubnet.id
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
   depends_on = [aws_internet_gateway.igw]

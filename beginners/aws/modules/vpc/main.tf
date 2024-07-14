@@ -1,8 +1,8 @@
-resource "aws_vpc" "collabnix_vpc" {
+resource "aws_vpc" "terralabs_vpc" {
   cidr_block       = var.cidr_block
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }

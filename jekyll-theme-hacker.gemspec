@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.name          = 'jekyll-theme-hacker'
   s.version       = '0.1.1'
   s.license       = 'CC0-1.0'
-  s.authors       = ['Ajeet Raina', 'GitHub, Inc.']
-  s.email         = ['ajeetraina@gmail.com']
-  s.homepage      = 'https://collabnix.github.io/terraform/'
-  s.summary       = 'DockerLabs'
+  s.authors       = ['Milad Yarmohammadi', 'GitHub, Inc.']
+  s.email         = ['Milad.Yarmohammadi94@gmail.com']
+  s.homepage      = 'https://MiladYarmohammadi.github.io/'
+  s.summary       = 'Milad Yarmohammadi'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)

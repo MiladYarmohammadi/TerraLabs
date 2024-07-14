@@ -1,19 +1,22 @@
 
-# An Ultimate Terraform Hands-on Labs 
+# TerraLabs / An Ultimate Terraform Hands-on Labs 
 
 
 
-![My image](https://raw.githubusercontent.com/collabnix/terraform/master/images/wordle.png)
+![My image](https://raw.githubusercontent.com/MiladYarmohammadi/terralabs/master/images/wordle.png)
 
-Terraform Labs brings you tutorials that help you get hands-on experience using Terraform, Kubernetes & Cloud. Here you will find complete documentation of labs and tutorials around Terraform CLI, Configuration Language, sub-commands, providers, Registry and much more..
 
-#  Getting Started in 3 Simple Steps
+TerraLabs brings you tutorials that help you get hands-on experience using Terraform, Kubernetes & Cloud. Here you will find complete documentation of labs and tutorials around Terraform CLI, Configuration Language, sub-commands, providers, Registry and much more.
 
-- Join 5000+ Collabnix Labs Contributors in 2 mins via [Slack](https://launchpass.com/collabnix)
 
-- Fork, Contribute & Share via [Terraform GITHUB Repository](https://github.com/collabnix/terraform)
+This repository will continue the goal of [@Collabnix](https://github.com/collabnix/terraform) so we can complete it together.
+#  Getting Started in Simple Steps
 
--  [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40collabnix)](https://twitter.com/collabnix)
+[//]: # (- Join 5000+ TerraLabs Labs Contributors in 2 mins via [Slack]&#40;https://launchpass.com/terralabs&#41;)
+
+- Fork, Contribute & Share via [Terraform GITHUB Repository](https://github.com/MiladYarmohammadi/terraform)
+
+[//]: # (-  [![Discord URL]&#40;https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40terralabs&#41;]&#40;https://discord.gg/pB2Te9Bw&#41;)
 
 # Terraform Workshop/Labs
 
@@ -32,25 +35,25 @@ Terraform Labs brings you tutorials that help you get hands-on experience using 
 
 ## Installing Terraform
 
-  - [MacOS](https://github.com/collabnix/terraform/blob/master/beginners/os/mac/README.md)
-  - [Linux](https://github.com/collabnix/terraform/tree/master/beginners/os/linux) 
-  - [Windows](https://github.com/collabnix/terraform/tree/master/beginners/os/windows)
+  - [MacOS](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/os/mac/README.md)
+  - [Linux](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/os/linux) 
+  - [Windows](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/os/windows)
   
 
-## From Terraform INIT To APPLY
+## From Terraform _INIT_ to _APPLY_
 
-  - [Terraform providers](https://github.com/collabnix/terraform/blob/master/beginners/providers/Terraform_Providers.md)
-  - [Terraform resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/Terraform_Resources.md)
-  - [Variable Resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/variables/README.md)
-  - [Output Resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/output/README.md)
-  - [Terraform CLI](https://github.com/collabnix/terraform/blob/master/beginners/CLI/README.md)
-  - [Init-plan-apply !](https://github.com/collabnix/terraform/blob/master/beginners/init-plan-apply/README.md)
+  - [Terraform providers](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/providers/Terraform_Providers.md)
+  - [Terraform resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/Terraform_Resources.md)
+  - [Variable Resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/variables/README.md)
+  - [Output Resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/output/README.md)
+  - [Terraform CLI](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/CLI/README.md)
+  - [Init-plan-apply !](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/init-plan-apply/README.md)
 
 ## Setting up Cloud Account
 
 #### AWS
 
-  - [Deploy your AWS EKS cluster with Terraform](https://github.com/collabnix/terraform/tree/master/beginners/aws/eks)
+  - [Deploy your AWS EKS cluster with Terraform](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/aws/eks)
   - Setting up AWS account credentials 
   - Launch an EC2 instance
   - Create a S3 bucket for storage
@@ -65,18 +68,18 @@ Terraform Labs brings you tutorials that help you get hands-on experience using 
 
 #### Azure
  
-  - [Getting started with Terraform in Azure](https://github.com/collabnix/terraform/blob/master/beginners/azure/README.md)
-  - [Create a Virtual Network in Azure](https://github.com/collabnix/terraform/blob/master/beginners/azure/virtualnetwork)
-  - [Create a Linux Virtual Machine in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/linuxVM)
-  - [Create a Windows-10 Virtual Machine in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/windowsVM)
-  - [Create a Storage account and Host a static website in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/storageAccount) 
-  - [Create Multiple Resources in Azure using for_each](https://github.com/collabnix/terraform/tree/master/beginners/azure/multiple_resources) 
-  - [Create AKS Cluster with Container Monitoring](https://github.com/collabnix/terraform/tree/master/beginners/azure/aks_cluster)
-  - [How to use Modules](https://github.com/collabnix/terraform/tree/master/beginners/azure/module_example)
+  - [Getting started with Terraform in Azure](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/README.md)
+  - [Create a Virtual Network in Azure](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/virtualnetwork)
+  - [Create a Linux Virtual Machine in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/linuxVM)
+  - [Create a Windows-10 Virtual Machine in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/windowsVM)
+  - [Create a Storage account and Host a static website in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/storageAccount) 
+  - [Create Multiple Resources in Azure using for_each](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/multiple_resources) 
+  - [Create AKS Cluster with Container Monitoring](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/aks_cluster)
+  - [How to use Modules](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/module_example)
 
 #### GCP
 
-  - [Setting up Terraform for Google Cloud Platform](https://github.com/collabnix/terraform/blob/master/beginners/gcp/README.md)
+  - [Setting up Terraform for Google Cloud Platform](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/gcp/README.md)
   - Terraform vs Google Deployment Manager
   - Launch a Compute Engine Instance
   - Create a New VPC and Public Subnet
@@ -84,7 +87,7 @@ Terraform Labs brings you tutorials that help you get hands-on experience using 
   - Deploy a web server
   - Cleaning Up
 
-## Managing Terraform State
+## Managing Terraform _State_
  
   - What is Terraform State
   - Shared Storage for State Files
@@ -94,19 +97,19 @@ Terraform Labs brings you tutorials that help you get hands-on experience using 
   - Read-only States
   - Import Terraform state
 
-## Terraform Backends
+## Terraform _Backends_
 
   - What are terraform backends ?
   - List of supported Remote backends 
   - Using remote backends in a collaborative environments
 
-## Terraform Modules
+## Terraform _Modules_
 
   - Why Terraform Modules
   - When to write Terraform Modules
 
 
-## Terraform Enterprise (TFE)
+## Terraform _Enterprise_ (TFE)
   - Additional features of TFE
   - Integration of TFE with Github
   - Creating organisation
@@ -119,7 +122,7 @@ Terraform Labs brings you tutorials that help you get hands-on experience using 
 - [Experts Track](./experts/README.md) - Not Started
 
 
-# Terraform Associate Certification
+# Terraform _Associate Certification_
 
 - [Study Guide](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) <br>
 - [HashiCorp Infrastructure Automation Certification](https://www.hashicorp.com/certification/terraform-associate/)<br>

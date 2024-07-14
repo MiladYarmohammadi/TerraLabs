@@ -11,7 +11,7 @@
 
 ## Prerequisites
 
-Click [Here](https://github.com/collabnix/terraform/blob/master/beginners/azure/README.md) to know the process of initial set up.
+Click [Here](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/README.md) to know the process of initial set up.
 
 ## Steps
 
@@ -23,13 +23,13 @@ Click [Here](https://github.com/collabnix/terraform/blob/master/beginners/azure/
 
 
 
-![Success](https://github.com/collabnix/terraform/blob/master/images/Azure_staticwebsite_Success.png)
+![Success](https://github.com/MiladYarmohammadi/terralabs/blob/master/images/Azure_staticwebsite_Success.png)
 
 - If you want to see the error page, append /error to the url.
 
 
 
-![Error](https://github.com/collabnix/terraform/blob/master/images/Azure_staticwebsite_Error.png)
+![Error](https://github.com/MiladYarmohammadi/terralabs/blob/master/images/Azure_staticwebsite_Error.png)
 
 
 ## After the deployment

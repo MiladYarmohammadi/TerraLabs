@@ -1,8 +1,8 @@
 resource "aws_internet_gateway" "igw" {
-  vpc_id = aws_vpc.collabnix_vpc.id
+  vpc_id = aws_vpc.terralabs_vpc.id
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }

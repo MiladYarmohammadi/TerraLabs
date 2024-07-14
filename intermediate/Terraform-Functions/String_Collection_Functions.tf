@@ -13,7 +13,7 @@
 variable "lower_var" {
     description     =   "Example of lower function in Terraform"
     type            =   string
-    default         =   "COLLABNIX"
+    default         =   "TERRALABS"
 }
 
 output "lower-output" {
@@ -31,7 +31,7 @@ output "lower-output" {
 variable "upper_var" {
     description     =   "Example of upper function in Terraform"
     type            =   string
-    default         =   "collabnix"
+    default         =   "terralabs"
 }
 
 output "upper-output" {
@@ -49,7 +49,7 @@ output "upper-output" {
 variable "split_var" {
     description     =   "Example of split function in Terraform"
     type            =   string
-    default         =   "collabnix,terraform,aws,azure,gpc"
+    default         =   "terralabs,terraform,aws,azure,gpc"
 }
 
 output "split-output" {
@@ -85,7 +85,7 @@ output "replace-output" {
 variable "substr_var" {
     description     =   "Example of replace function in Terraform"
     type            =   string
-    default         =   "collabnix"
+    default         =   "terralabs"
 }
 
 output "substr-output" {
@@ -147,7 +147,7 @@ output "distinct-output" {
 variable "element_var" {
     description     =   "Example of element function in Terraform"
     type            =   list(string)
-    default         =   ["collabnix", "aws", "azure", "gcp", "k8s"]
+    default         =   ["terralabs", "aws", "azure", "gcp", "k8s"]
 }
 
 output "element-output" {
@@ -171,7 +171,7 @@ output "element-output" {
 variable "join_list" {
     description     =   "Example of join function in Terraform"
     type            =   list(string)
-    default         =   ["collabnix","terraform","aws","azure","gpc"]
+    default         =   ["terralabs","terraform","aws","azure","gpc"]
 }
 
 output "join-output" {
@@ -189,13 +189,13 @@ output "join-output" {
 variable "length_str" {
     description     =   "Example of length of a string"
     type            =   string
-    default         =   "Collabnix"
+    default         =   "TerraLabs"
 }
 
 variable "length_list" {
     description     =   "Example of length of a list"
     type            =   list(string)
-    default         =   ["collabnix","terraform","aws","azure","gpc"]
+    default         =   ["terralabs","terraform","aws","azure","gpc"]
 }
 
 variable "length_map" { 
@@ -235,7 +235,7 @@ output "length-output" {
 variable "slice_var" {
     description     =   "Example of Slice function in Terraform"
     type            =   list(string)
-    default         =   ["collabnix","terraform","aws","azure","gpc"]
+    default         =   ["terralabs","terraform","aws","azure","gpc"]
 }
 
 output "slice-output" {
@@ -252,7 +252,7 @@ output "slice-output" {
 variable "sort_list1" {
     description     =   "Example of sort function in Terraform"
     type            =   list(string)
-    default         =   ["collabnix", "terraform", "aws", "azure", "gpc"]
+    default         =   ["terralabs", "terraform", "aws", "azure", "gpc"]
 }
 
 variable "sort_list2" {

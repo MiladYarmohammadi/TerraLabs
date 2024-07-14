@@ -1,5 +1,5 @@
 resource "aws_route_table" "private" {
-  vpc_id = aws_vpc.collabnix_vpc.id
+  vpc_id = aws_vpc.terralabs_vpc.id
 
   route {
     cidr_block = "0.0.0.0/0"
@@ -7,13 +7,13 @@ resource "aws_route_table" "private" {
   }
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }
 
 resource "aws_route_table" "public" {
-  vpc_id = aws_vpc.collabnix_vpc.id
+  vpc_id = aws_vpc.terralabs_vpc.id
 
   route {
     cidr_block = "0.0.0.0/0"
@@ -21,7 +21,7 @@ resource "aws_route_table" "public" {
   }
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }

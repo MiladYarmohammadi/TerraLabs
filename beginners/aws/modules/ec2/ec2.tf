@@ -25,7 +25,7 @@ resource "aws_instance" "instance" {
   }
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }

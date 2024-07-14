@@ -29,7 +29,7 @@ variable "tags" {
     description     =   "Tags"
     type            =   map(string)
     default         =   {
-        "Project"       =   "Collabnix"
+        "Project"       =   "TerraLabs"
         "Deployed_with" =   "Terraform"
         "Track"         =   "Beginner"
     }

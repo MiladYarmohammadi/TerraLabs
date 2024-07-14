@@ -20,7 +20,7 @@
 
 ## Prerequisites
 
-Click [Here](https://github.com/collabnix/terraform/blob/master/beginners/azure/README.md) to know the process of initial set up.
+Click [Here](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/README.md) to know the process of initial set up.
 
 ## Steps
 

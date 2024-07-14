@@ -30,7 +30,7 @@
 ## Provisioners Run
 
 
-![Provisioners-Run](https://github.com/collabnix/terraform/blob/master/images/Terraform-Provisioners.png)
+![Provisioners-Run](https://github.com/MiladYarmohammadi/terralabs/blob/master/images/Terraform-Provisioners.png)
 
 ## After the deployment
 

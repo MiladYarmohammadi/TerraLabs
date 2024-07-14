@@ -2,19 +2,19 @@
 
 ## Installing Terraform
 
-- [MacOS](https://github.com/collabnix/terraform/blob/master/beginners/os/mac/README.md)
-- [Linux](https://github.com/collabnix/terraform/tree/master/beginners/os/linux)
-- [Windows](https://github.com/collabnix/terraform/tree/master/beginners/os/windows)
+- [MacOS](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/os/mac/README.md)
+- [Linux](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/os/linux)
+- [Windows](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/os/windows)
 - [Raspberry Pi]()
 
 ## From Terraform INIT To APPLY
 
-- [Terraform providers](https://github.com/collabnix/terraform/blob/master/beginners/providers/README.md)
-- [Terraform resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/README.md)
-- [Variable Resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/variables/README.md)
-- [Output Resources](https://github.com/collabnix/terraform/blob/master/beginners/resources/output/README.md)
-- [Terraform CLI](https://github.com/collabnix/terraform/blob/master/beginners/CLI/README.md)
-- [Init-plan-apply !](https://github.com/collabnix/terraform/blob/master/beginners/init-plan-apply/README.md)
+- [Terraform providers](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/providers/README.md)
+- [Terraform resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/README.md)
+- [Variable Resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/variables/README.md)
+- [Output Resources](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/resources/output/README.md)
+- [Terraform CLI](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/CLI/README.md)
+- [Init-plan-apply !](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/init-plan-apply/README.md)
 
 ## Setting up Cloud Account
 
@@ -34,19 +34,19 @@
 
 #### Azure
 
-- [Getting started with Terraform in Azure](https://github.com/collabnix/terraform/blob/master/beginners/azure/README.md)
-- [Create a Virtual Network in Azure](https://github.com/collabnix/terraform/blob/master/beginners/azure/virtualnetwork)
-- [Create a Linux Virtual Machine in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/linuxVM)
-- [Create a Windows-10 Virtual Machine in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/windowsVM)
-- [Create a Storage account and Host a static website in Azure](https://github.com/collabnix/terraform/tree/master/beginners/azure/storageAccount)
-- [Create Multiple Resources in Azure using for_each](https://github.com/collabnix/terraform/tree/master/beginners/azure/multiple_resources) 
-- [Create AKS Cluster with Container Monitoring](https://github.com/collabnix/terraform/tree/master/beginners/azure/aks_cluster)
+- [Getting started with Terraform in Azure](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/README.md)
+- [Create a Virtual Network in Azure](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/azure/virtualnetwork)
+- [Create a Linux Virtual Machine in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/linuxVM)
+- [Create a Windows-10 Virtual Machine in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/windowsVM)
+- [Create a Storage account and Host a static website in Azure](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/storageAccount)
+- [Create Multiple Resources in Azure using for_each](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/multiple_resources) 
+- [Create AKS Cluster with Container Monitoring](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/aks_cluster)
 
-- [How to use Modules](https://github.com/collabnix/terraform/tree/master/beginners/azure/module_example)
+- [How to use Modules](https://github.com/MiladYarmohammadi/terralabs/tree/master/beginners/azure/module_example)
 
 ### GCP
 
-- [Setting up Terraform for Google Cloud Platform](https://github.com/collabnix/terraform/blob/master/beginners/gcp/README.md)
+- [Setting up Terraform for Google Cloud Platform](https://github.com/MiladYarmohammadi/terralabs/blob/master/beginners/gcp/README.md)
 - Terraform vs Google Deployment Manager
 - Launch a Compute Engine Instance
 - Create a New VPC and Public Subnet

@@ -52,7 +52,7 @@ resource "aws_instance" "webserver" {
   }
 
   tags = {
-    project = "Collabnix"
+    project = "TerraLabs"
     department = "Automation"
   }
 }

@@ -13,7 +13,7 @@ To run these templates, clone the repository and run terraform apply within its 
 For example:
 
 ```tf
-$ git clone https://github.com/collabnix/terraform.git
+$ git clone https://github.com/MiladYarmohammadi/terralabs.git
 $ cd terraform/beginner/aws/modules/API_Gateway & CloudWatch
 $ terraform apply
 ```
