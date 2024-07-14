@@ -78,6 +78,6 @@
 
 ## Terrafrom Enterprise (TFE)
 - Additional features of TFE
-- Integration of TFE with Github
+- Integration of TFE with GitHub
 - Creating organisation
 - Configuring backends

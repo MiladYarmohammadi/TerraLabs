@@ -14,7 +14,7 @@ This repository will continue the goal of [@Collabnix](https://github.com/collab
 
 [//]: # (- Join 5000+ TerraLabs Labs Contributors in 2 mins via [Slack]&#40;https://launchpass.com/terralabs&#41;)
 
-- Fork, Contribute & Share via [Terraform GITHUB Repository](https://github.com/MiladYarmohammadi/terraform)
+- Fork, Contribute & Share via [Terraform GitHub Repository](https://github.com/MiladYarmohammadi/terraform)
 
 [//]: # (-  [![Discord URL]&#40;https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40terralabs&#41;]&#40;https://discord.gg/pB2Te9Bw&#41;)
 
@@ -111,7 +111,7 @@ This repository will continue the goal of [@Collabnix](https://github.com/collab
 
 ## Terraform _Enterprise_ (TFE)
   - Additional features of TFE
-  - Integration of TFE with Github
+  - Integration of TFE with GitHub
   - Creating organisation
   - Configuring backends
 

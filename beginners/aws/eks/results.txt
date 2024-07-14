@@ -232,8 +232,8 @@ Terraform will perform the following actions:
       + status                = (known after apply)
       + tags                  = {
           + "Environment" = "training"
-          + "GithubOrg"   = "terraform-aws-modules"
-          + "GithubRepo"  = "terraform-aws-eks"
+          + "GitHubOrg"   = "terraform-aws-modules"
+          + "GitHubRepo"  = "terraform-aws-eks"
         }
       + version               = "1.16"
 
@@ -308,8 +308,8 @@ Terraform will perform the following actions:
       + path                  = "/"
       + tags                  = {
           + "Environment" = "training"
-          + "GithubOrg"   = "terraform-aws-modules"
-          + "GithubRepo"  = "terraform-aws-eks"
+          + "GitHubOrg"   = "terraform-aws-modules"
+          + "GitHubRepo"  = "terraform-aws-eks"
         }
       + unique_id             = (known after apply)
     }
@@ -341,8 +341,8 @@ Terraform will perform the following actions:
       + path                  = "/"
       + tags                  = {
           + "Environment" = "training"
-          + "GithubOrg"   = "terraform-aws-modules"
-          + "GithubRepo"  = "terraform-aws-eks"
+          + "GitHubOrg"   = "terraform-aws-modules"
+          + "GitHubRepo"  = "terraform-aws-eks"
         }
       + unique_id             = (known after apply)
     }

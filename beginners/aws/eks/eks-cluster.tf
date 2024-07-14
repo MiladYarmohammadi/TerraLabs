@@ -5,8 +5,8 @@ module "eks" {
 
   tags = {
     Environment = "training"
-    GithubRepo  = "terraform-aws-eks"
-    GithubOrg   = "terraform-aws-modules"
+    GitHubRepo  = "terraform-aws-eks"
+    GitHubOrg   = "terraform-aws-modules"
   }
 
   vpc_id = module.vpc.vpc_id
