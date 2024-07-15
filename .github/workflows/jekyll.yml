@@ -17,4 +17,5 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chown -R $(id -u):$(id -g) /srv/jekyll && chmod -R 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "chown -R $(id -u):$(id -g) /srv/jekyll && jekyll build --future"
+# && chmod -R 777 /srv/jekyll
