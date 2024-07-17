@@ -5,18 +5,17 @@ The purpose of this tutorial is to create an EKS cluster with Terraform. Amazon 
 
 ## Pre-requisite:
 
-- MacOS
+- MacOS (Or any other supported OS)
 - Get an AWS free trial account
-- Install Terraform v0.12.26 
+- Install Terraform v1.5.7 
+
+*Note: Find your respective installation commands if you are not using macOS.*
 
 ```
 brew install terraform
 ```
 
-If you're running Terraform 0.11, I would suggest to upgrade it to 0.12 ASAP.
-
-
-- Install AWSCLI 2.0.17
+- Install AWSCLI 2.17.13
 
 ```
 brew install awscli
@@ -86,7 +85,7 @@ $ cd learn-terraform-provision-eks-cluster
 In here, you will find six files used to provision a VPC, security groups and an EKS cluster. The final product should be similar to this:
 
 
-- vpc.tf provisions a VPC, subnets and availability zones using the AWS VPC Module. A new VPC is created for this guide so it doesn't impact your existing cloud environment and resources.
+- vpc.tf provisions a VPC, subnets and availability zones using the AWS VPC Module. A new VPC is created for this guide, so it doesn't impact your existing cloud environment and resources.
 
 - security-groups.tf provisions the security groups used by the EKS cluster.
 
@@ -174,7 +173,7 @@ region = us-east-2
 
 ## Configure kubectl
 
-Now that you've provisioned your EKS cluster, you need to configure kubectl. Customize the following command with your cluster name and region, the values from Terraform's output. It will get the access credentials for your cluster and automatically configure kubectl.
+Now that you've provisioned your EKS cluster, you need to configure kubectl. Customize the following command with your cluster name and region, the values from Terraform output. It will get the access credentials for your cluster and automatically configure kubectl.
 
 
 ```
